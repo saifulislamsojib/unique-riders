@@ -1,0 +1,41 @@
+.distance {
+  background-color: #dddddd;
+  border-radius: 8px;
+}
+.distance-form {
+  background-color: lightgray;
+  padding: 30px;
+  border-radius: 8px;
+}
+.from-to {
+  position: relative;
+  padding: 30px;
+}
+.from-to-icon {
+  height: 55px;
+  width: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 15px;
+  top: 55px;
+  border-radius: 10px;
+}
+.from-to-icon::after {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  position: absolute;
+  left: -5px;
+  border-radius: 50%;
+}
+.from-to-icon::before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  background-color: #fff;
+  position: absolute;
+  left: -5px;
+  top: 50px;
+  border-radius: 50%;
+}

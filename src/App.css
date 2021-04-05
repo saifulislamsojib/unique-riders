@@ -1,0 +1,12 @@
+.app {
+  background-image: url(./images/Bg.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .app {
+    padding-bottom: 1px;
+  }
+}
